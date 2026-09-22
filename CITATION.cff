@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Please cite the JASA methods paper when using this software."
+title: "longtermLinkage: Long-term effects from linked trial and follow-up data"
+type: software
+version: 0.1.0
+date-released: 2026-09-22
+license: MIT
+repository-code: "https://github.com/mathcg/longterm-linkage"
+authors:
+  - family-names: Cheng
+    given-names: Gang
+  - family-names: Zhao
+    given-names: Ying-Qi
+keywords:
+  - clinical trials
+  - data linkage
+  - inverse probability weighting
+  - long-term treatment effects
+  - survival analysis
+preferred-citation:
+  type: article
+  title: "Long-Term Effect Estimation When Combining Clinical Trial and Observational Follow-Up Datasets"
+  authors:
+    - family-names: Cheng
+      given-names: Gang
+    - family-names: Chen
+      given-names: Yen-Chi
+    - family-names: Unger
+      given-names: Joseph M.
+    - family-names: Till
+      given-names: Cathee
+    - family-names: Zhao
+      given-names: Ying-Qi
+  year: 2026
+  journal: Journal of the American Statistical Association
+  volume: 121
+  issue: 553
+  start: 492
+  end: 501
+  doi: 10.1080/01621459.2025.2526703

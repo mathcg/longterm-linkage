@@ -1,0 +1,31 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "longtermLinkage",
+  "description": "R implementation of Cox-model methods for long-term treatment effects with partially linked clinical-trial and observational follow-up data.",
+  "version": "0.1.0",
+  "codeRepository": "https://github.com/mathcg/longterm-linkage",
+  "issueTracker": "https://github.com/mathcg/longterm-linkage/issues",
+  "programmingLanguage": "R",
+  "license": "https://spdx.org/licenses/MIT",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Gang",
+      "familyName": "Cheng"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Ying-Qi",
+      "familyName": "Zhao"
+    }
+  ],
+  "citation": "https://doi.org/10.1080/01621459.2025.2526703",
+  "keywords": [
+    "clinical trial",
+    "data linkage",
+    "inverse probability weighting",
+    "long-term treatment effect",
+    "survival analysis"
+  ]
+}

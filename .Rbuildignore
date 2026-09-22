@@ -1,0 +1,7 @@
+^\.github$
+^\.git$
+^\.gitignore$
+^analysis$
+^CONTRIBUTING\.md$
+^codemeta\.json$
+^README\.md$

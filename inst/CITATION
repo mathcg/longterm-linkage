@@ -1,0 +1,18 @@
+bibentry(
+  bibtype = "Article",
+  title = "Long-Term Effect Estimation When Combining Clinical Trial and Observational Follow-Up Datasets",
+  author = c(
+    person("Gang", "Cheng"),
+    person("Yen-Chi", "Chen"),
+    person("Joseph M.", "Unger"),
+    person("Cathee", "Till"),
+    person("Ying-Qi", "Zhao")
+  ),
+  journal = "Journal of the American Statistical Association",
+  year = "2026",
+  volume = "121",
+  number = "553",
+  pages = "492--501",
+  doi = "10.1080/01621459.2025.2526703",
+  url = "https://doi.org/10.1080/01621459.2025.2526703"
+)

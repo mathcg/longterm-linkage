@@ -1,0 +1,32 @@
+Package: longtermLinkage
+Type: Package
+Title: Long-Term Effect Estimation with Linked Trial and Follow-Up Data
+Version: 0.1.0
+Authors@R: c(
+    person("Gang", "Cheng", role = c("aut", "cre"),
+           email = "mathchenggang@gmail.com"),
+    person("Ying-Qi", "Zhao", role = "aut"),
+    person("Yen-Chi", "Chen", role = "ctb"),
+    person("Joseph M.", "Unger", role = "ctb"),
+    person("Cathee", "Till", role = "ctb")
+  )
+Description: Implements Cox-model estimators for long-term treatment effects
+    when randomized clinical-trial records are partially linked to
+    observational follow-up data. Methods include complete-case analysis,
+    augmented complete-case analysis, non-linked-as-censored analysis, and
+    inverse-probability-of-linkage weighting from Cheng et al. (2026)
+    <doi:10.1080/01621459.2025.2526703>. Simulation generators and a synthetic
+    Prostate Cancer Prevention Trial data example are included.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports:
+    multcomp,
+    survival
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/Needs/website: r-lib/pkgdown
+URL: https://github.com/mathcg/longterm-linkage,
+    https://doi.org/10.1080/01621459.2025.2526703
+BugReports: https://github.com/mathcg/longterm-linkage/issues
